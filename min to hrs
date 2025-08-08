@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ int min;
+ float hrs;
+ printf("min:");
+ scanf("%d",&min);
+
+hrs = min / 60.00;
+
+printf("%d min is equal to %.2f hrs.\n", min, hrs);
+
+return 0;
+}
