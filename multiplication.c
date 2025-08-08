@@ -5,12 +5,13 @@ int main()
     printf("Enter the 1st number:");
     scanf("%d",&a);
 
-    printf("Enter the 2nd number");
+    printf("Enter the 2nd number:");
     scanf("%d",&b);
     
     c = a * b;
     printf("%d * %d = %d\n",a,b,c);
     return 0;
 }
+
 
 
