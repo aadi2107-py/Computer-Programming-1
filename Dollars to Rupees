@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+ int Dollars, Rupees;
+ printf("Dollars:");
+ scanf("%d",&Dollars);
+
+Rupees = Dollars * 48;
+
+printf("%d Dollars is equal to %d Rupees.\n", Dollars, Rupees);
+
+return 0;
+}
