@@ -2,15 +2,16 @@
 int main()
  {
     int a,b, c;
-    printf("Enter a number:");
+    printf("Enter the 1st number:");
     scanf("%d",&a);
 
-    printf("Enter a Number:");
+    printf("Enter the 2nd Number:");
     scanf("%d",&b);
      
     c = a + b;
     printf("%d + %d = %d\n",a,b,c);
     return 0;
  }
+
 
 
