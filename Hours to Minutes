@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int hrs,min;
+ printf("hrs:");
+ scanf("%d",&hrs);
+
+min = hrs * 60;
+
+printf("%d hrs is equal to %d min.\n", hrs, min);
+
+return 0;
+}
+
+ 
