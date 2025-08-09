@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+ int Height, Side;
+ float Area;
+
+ printf("Side: ");
+ scanf("%d", &Side);
+
+ printf("Height: ");
+ scanf("%d", &Height);
+
+ Area = (Side * Height) / 2.00;
+
+ printf("The Area of the Triangle is %.1f\n", Area);
+
+ return 0;
+}
