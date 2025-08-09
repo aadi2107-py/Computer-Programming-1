@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int Grams;
+ float Kg;
+
+ printf("Grams:");
+ scanf("%d",&Grams);
+
+ Kg = Grams / 1000.00;
+
+ printf("%d Grams is equal to %.3f Kg", Grams, Kg);
+
+ return 0;
+}
