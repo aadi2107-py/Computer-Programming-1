@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+ int Bytes;
+ float KB, MB, GB; 
+
+ printf("Bytes:");
+ scanf("%d",&Bytes);
+
+ KB = Bytes / 1024.00;
+ MB = KB / 1024.00;
+ GB = MB / 1024.00;
+
+ printf("%d Bytes is equal to %.3f KB, %.6f MB and %.9f GB", Bytes, KB, MB, GB);
+
+ return 0;
+
+}
