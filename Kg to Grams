@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ int Kg, Grams;
+
+ printf("Kg:");
+ scanf("%d",&Kg);
+
+ Grams = Kg * 1000.00;
+
+ printf("%d Kg is equal to %d Grams", Kg, Grams);
+
+ return 0;
+}
