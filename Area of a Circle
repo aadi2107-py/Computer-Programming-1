@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int Radius;
+ float Area;
+
+ printf("Radius: ");
+ scanf("%d", &Radius);
+
+ Area = (Radius * Radius * 22.00) / 7.00;
+
+ printf("The Area of the Circle is %.2f\n", Area);
+
+ return 0;
+}
