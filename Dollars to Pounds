@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+ int Dollars, Rupees;
+ float Pounds;
+ printf("Dollars:");
+ scanf("%d",&Dollars);
+
+ Rupees = Dollars * 48.00;
+ Pounds = Dollars  * 48.00/70.00;
+ 
+ printf("%d Dollars is equal to %.2f Pounds and %d Rupees", Dollars, Pounds, Rupees);
+
+ return 0;
+
+}
