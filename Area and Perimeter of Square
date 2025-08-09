@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+ int Side, Perimeter, Area;
+
+ printf("Side: ");
+ scanf("%d", &Side);
+
+ Perimeter = 4 * Side;
+ Area = Side * Side;
+
+ printf("The Perimeter of the square is %d\n", Perimeter);
+ printf("The Area of the square is %d\n", Area);
+
+ return 0;
+}
+ 
